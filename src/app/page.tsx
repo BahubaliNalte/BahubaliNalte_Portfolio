@@ -1,7 +1,7 @@
 "use client";
 
-import React, { useEffect, useState, useRef } from "react";
-import { motion, AnimatePresence } from "framer-motion";
+import React, { useEffect, useState } from "react";
+import { motion } from "framer-motion";
 // Typewriter effect hook
 function useTypewriter(text: string, speed = 60) {
   const [displayed, setDisplayed] = useState("");
@@ -9,7 +9,7 @@ function useTypewriter(text: string, speed = 60) {
     setDisplayed("");
     let i = 0;
     const interval = setInterval(() => {
-      setDisplayed((prev) => text.slice(0, i + 1));
+      setDisplayed(text.slice(0, i + 1));
       i++;
       if (i >= text.length) clearInterval(interval);
     }, speed);
@@ -38,10 +38,7 @@ const heroVariants = {
   },
 };
 
-const ctaVariants = {
-  initial: { opacity: 0, y: 20 },
-  animate: { opacity: 1, y: 0, transition: { delay: 0.7, duration: 0.7 } },
-};
+// Removed unused ctaVariants
 
 
 // Accessibility: Skip links
@@ -245,7 +242,7 @@ export default function Home() {
           {/* Removed animated gradient/particle effect behind code card */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-12 w-full max-w-5xl mx-auto relative z-20">
             <div className="flex flex-col items-center md:items-start justify-center gap-4 max-w-xl w-full text-center md:text-left">
-              <span className="text-primary text-lg font-semibold">Hello! I'm</span>
+          <span className="text-primary text-lg font-semibold">Hello! I&apos;m</span>
               <motion.h1
                 className="text-5xl sm:text-6xl font-extrabold tracking-tight text-white mb-2"
                 initial={{ opacity: 0, y: 30, scale: 0.95 }}
@@ -320,13 +317,13 @@ export default function Home() {
                 {/* Code area */}
                 <pre className="mt-8 text-left text-xs sm:text-sm md:text-base font-mono text-blue-100 px-2 sm:px-4 py-2 sm:py-4 bg-transparent rounded-b-xl shadow-inner w-full h-full overflow-x-auto select-none flex flex-col justify-start" style={{ tabSize: 2, background: 'linear-gradient(180deg, #1e293b 80%, #334155 100%)' }}>
                   <br />  
-                  <span className="text-gray-300 block mb-1 font-semibold tracking-wide" style={{fontSize: '1em', letterSpacing: '0.04em'}}> // About Me </span>
+                  <span className="text-gray-300 block mb-1 font-semibold tracking-wide" style={{fontSize: '1em', letterSpacing: '0.04em'}}>{"/* About Me */"}</span>
                   <span><span className="text-pink-400">const</span> <span className="text-blue-400">developer</span> <span className="text-orange-400">=</span> <span className="text-orange-400">{'{'}</span></span>{"\n"}
-                  <span>  <span className="text-purple-400">name</span>: <span className="text-green-400">'Bahubali Nalte'</span>,</span>{"\n"}
-                  <span>  <span className="text-purple-400">degree</span>: <span className="text-green-400">'BCA'</span>,</span>{"\n"}
-                  <span>  <span className="text-purple-400">skills</span>: [<span className="text-green-400">'MERN-Stack'</span>,<span className="text-green-400">'Next.js'</span>,<span className="text-green-400">'DSA'</span>],</span>{"\n"}
-                  <span>  <span className="text-purple-400">focus</span>: [<span className="text-green-400">'Web Dev'</span>,<span className="text-green-400">'Problem Solving'</span>],</span>{"\n"}
-                  <span>  <span className="text-purple-400">motto</span>: [<span className="text-green-400">'Think'</span>,<span className="text-green-400">'Develop'</span>,<span className="text-green-400">'Deploy'</span>]</span>{"\n"}
+                  <span>  <span className="text-purple-400">name</span>: <span className="text-green-400">&apos;Bahubali Nalte&apos;</span>,</span>{"\n"}
+                  <span>  <span className="text-purple-400">degree</span>: <span className="text-green-400">&apos;BCA&apos;</span>,</span>{"\n"}
+                  <span>  <span className="text-purple-400">skills</span>: [<span className="text-green-400">&apos;MERN-Stack&apos;</span>,<span className="text-green-400">&apos;Next.js&apos;</span>,<span className="text-green-400">&apos;DSA&apos;</span>],</span>{"\n"}
+                  <span>  <span className="text-purple-400">focus</span>: [<span className="text-green-400">&apos;Web Dev&apos;</span>,<span className="text-green-400">&apos;Problem Solving&apos;</span>],</span>{"\n"}
+                  <span>  <span className="text-purple-400">motto</span>: [<span className="text-green-400">&apos;Think&apos;</span>,<span className="text-green-400">&apos;Develop&apos;</span>,<span className="text-green-400">&apos;Deploy&apos;</span>]</span>{"\n"}
                   <span className="text-orange-400">{'};'}</span>
                 </pre>
               </div>
