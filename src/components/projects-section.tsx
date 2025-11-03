@@ -5,26 +5,38 @@ import Image from "next/image";
 
 const projects = [
   {
-    title: "Modern Portfolio",
-    image: "/project1.jpg", // Place a real image in public/
-    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
-    github: "https://github.com/yourusername/portfolio",
-    demo: "https://your-portfolio-demo.com",
+    title: "Diploma2Degree",
+    image: "/D2D.png", 
+    tech: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion", "Razorpay"],
+    github: "https://github.com/BahubaliNalte/Diploma2Degree",
+    demo: "https://diploma2degree.co.in/",
+    description: "A comprehensive platform for diploma students to find engineering colleges, get personalized predictions, and receive expert counseling. Features include college predictor, dynamic filtering, secure payments, and admin dashboard.",
   },
   {
-    title: "E-commerce App",
-    image: "/project2.jpg",
-    tech: ["React", "Node.js", "MongoDB", "Stripe"],
-    github: "https://github.com/yourusername/ecommerce",
-    demo: "https://your-ecommerce-demo.com",
+    title: "ClaryGuide",
+    image: "/CG.png", 
+    tech: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion", "Razorpay"],
+    github: "https://github.com/BahubaliNalte/ClaryGuide",
+    demo: "https://clary-guide.vercel.app/",
+    description: "ClaryGuide is a web platform that helps students make better academic and career choices. It offers personalized guidance, study resources, and mentorship to support students in selecting the right courses, colleges, and career paths based on their interests and goals.",
   },
   {
-    title: "Blog Platform",
-    image: "/project3.jpg",
-    tech: ["Next.js", "Prisma", "PostgreSQL", "shadcn/ui"],
-    github: "https://github.com/yourusername/blog",
-    demo: "https://your-blog-demo.com",
+    title: "ReThinkWaste",
+    image: "/RTW.png", 
+    tech: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion", "Razorpay"],
+    github: "https://github.com/BahubaliNalte/ReThinkWaste",
+    demo: "https://rethinkwaste.onrender.com/",
+    description: "ReThinkWaste is a web-based waste management system that connects users with recycling services and promotes sustainable waste disposal. It allows users to manage waste collection requests, track recycling activities, and encourages eco-friendly habits through a simple and user-friendly interface.",
   },
+  {
+    title: "AgriFarm",
+    image: "/AF.png", 
+    tech: ["Next.js", "TypeScript", "Firebase", "Tailwind CSS", "Framer Motion", "Razorpay"],
+    github: "https://github.com/BahubaliNalte/AgriFarm",
+    demo: "https://agrifarm-iy6r.onrender.com/",
+    description: "AgriFarm is a farm management system designed to help farmers organize and monitor their daily activities efficiently. It enables users to manage crops, track farm data, and monitor production while promoting smart and sustainable farming practices through an easy-to-use interface.",
+  },
+ 
 ];
 
 export function ProjectsSection() {

@@ -9,12 +9,11 @@ import {
   FaJsSquare,
   FaGitAlt,
   FaFigma,
-  FaDocker,
   FaPython,
   FaJava,
   FaGithub,
 } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress, SiPrisma, SiMongodb, SiPostgresql, SiMariadb, SiMysql, SiVercel, SiPostman } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiTailwindcss, SiExpress, SiMongodb, SiVercel, SiPostman } from "react-icons/si";
 import { FaNetworkWired, FaLaptopCode } from "react-icons/fa";
 
 const skills = [
@@ -38,10 +37,6 @@ const skills = [
 	  { name: "Python", icon: FaPython, color: "#3776AB" },
 	  { name: "Java", icon: FaJava, color: "#f89820" },
 	  { name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-	  { name: "Prisma", icon: SiPrisma, color: "#2D3748" },
-	  { name: "MariaDB", icon: SiMariadb, color: "#003545" },
-	  { name: "MySQL", icon: SiMysql, color: "#4479A1" },
-	  { name: "PostgreSQL", icon: SiPostgresql, color: "#336791" },
 	],
   },
   {
@@ -51,7 +46,6 @@ const skills = [
 	  { name: "RESTful APIs", icon: FaNetworkWired, color: "#fff" },
 	  { name: "Responsive Design", icon: FaLaptopCode, color: "#fff" },
 	  { name: "Figma", icon: FaFigma, color: "#F24E1E" },
-	  { name: "Docker", icon: FaDocker, color: "#2496ED" },
 	  { name: "VS Code", icon: FaLaptopCode, color: "#007ACC" },
 	  { name: "Vercel", icon: SiVercel, color: "#fff" },
 	  { name: "GitHub", icon: FaGithub, color: "#fff" },

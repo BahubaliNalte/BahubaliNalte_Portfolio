@@ -3,23 +3,19 @@ import { motion } from "framer-motion";
 import { Briefcase, Calendar } from "lucide-react";
 
 const experiences = [
-  {
+ {
     role: "Full Stack Developer",
-    company: "Freelance",
-    period: "2023 - Present",
-    description: "Building modern web apps for clients using Next.js, TypeScript, and Tailwind CSS. Focused on delivering high-quality, scalable solutions with beautiful UI and smooth animations.",
+    company: "Diploma2Degree",
+    period: "2024 - Present",
+    description:
+      "Building modern web applications for engineering counseling and project management using Next.js, Firebase, and Tailwind CSS. Focused on creating responsive UI, real-time data handling, and admin dashboards.",
   },
   {
-    role: "Frontend Intern",
-    company: "Tech Startup",
-    period: "2022 - 2023",
-    description: "Worked on UI development, component libraries, and design systems. Collaborated with backend teams to deliver seamless user experiences.",
-  },
-  {
-    role: "Open Source Contributor",
-    company: "Various Projects",
-    period: "2021 - Present",
-    description: "Contributed to open source projects in the React and Next.js ecosystem, focusing on accessibility, performance, and developer experience.",
+    role: "Freelance Full Stack Developer",
+    company: "ClaryGuide",
+    period: "2024 - Present",
+    description:
+      "Developing an educational guidance platform that helps students choose the right career and college path. Built with React, Node.js, Express, and MongoDB to deliver personalized recommendations and resources.",
   },
 ];
 

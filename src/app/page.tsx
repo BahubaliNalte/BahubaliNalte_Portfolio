@@ -147,7 +147,7 @@ export default function Home() {
       setTypewriterRole(text.slice(0, i + 1));
       i++;
       if (i >= text.length) clearInterval(interval);
-    }, 55);
+    }, 100);
     // Inject style only on client
     const style = document.createElement('style');
     style.innerHTML = `
@@ -279,18 +279,18 @@ export default function Home() {
               </motion.p>
               <div className="flex flex-col sm:flex-row gap-4 mt-2 justify-center md:justify-start">
                 <a
-                  href="#contact"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 text-white font-bold shadow-lg hover:scale-105 hover:bg-blue-700 transition-transform text-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-400"
-                >
-                  Contact Me
-                </a>
-                <a
-                  href="/resume.pdf"
+                  href="/BahubaliNalte_Resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-blue-600 text-blue-600 font-bold hover:bg-blue-600 hover:text-white transition-colors shadow text-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-400"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-blue-600 text-white font-bold shadow-lg hover:scale-105 hover:bg-blue-700 transition-transform text-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-400"
                 >
                   View Resume
+                </a>
+                <a
+                  href="#contact"
+                  className="inline-flex items-center gap-2 px-6 py-3 rounded-full border-2 border-blue-600 text-blue-600 font-bold hover:bg-blue-600 hover:text-white transition-colors shadow text-lg focus:outline-none focus-visible:ring-4 focus-visible:ring-blue-400"
+                >
+                  Contact Me
                 </a>
               </div>
             </div>
