@@ -63,10 +63,10 @@ function FooterSection() {
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row md:justify-between gap-10 md:gap-0">
         {/* About */}
         <div className="flex-1 mb-8 md:mb-0">
-          <h3 className="text-xl font-bold text-white mb-2">Bahubali<span className="text-blue-500"> .</span></h3>
+          <h3 className="text-xl font-bold text-white mb-2">Bahubali Nalte<span className="text-blue-500"> .</span></h3>
           <p className="text-muted-foreground max-w-xs text-sm leading-relaxed">
-            Crafting digital experiences with code, creativity (& a bit of caffeine of course!).<br />
-            Thanks for stopping by!
+            Crafting modern, meaningful web solutions that make an impact..<br />
+            Welcome to my world of code!         
           </p>
         </div>
         {/* Quick Links */}
@@ -85,7 +85,7 @@ function FooterSection() {
           <ul className="space-y-2 text-sm">
             <li className="flex items-center gap-2 text-muted-foreground">
               <FaEnvelope className="text-blue-400" />
-              <a href="mailto:bahubali.nalte@gmail.com" className="hover:text-blue-400 transition-colors">bahubali.nalte@gmail.com</a>
+              <a href="mailto:bahubali.nalte@gmail.com" className="hover:text-blue-400 transition-colors">bahubalidnalte722006@gmail.com</a>
             </li>
             <li className="flex items-center gap-2 text-muted-foreground">
               <FaMapMarkerAlt className="text-blue-400" />
@@ -97,11 +97,11 @@ function FooterSection() {
         <div className="flex-1">
           <h4 className="font-semibold text-white mb-2">Connect</h4>
           <div className="flex gap-4 mt-1">
-            <a href="https://github.com/bahubali-nalte" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl text-muted-foreground hover:text-blue-400 transition-colors"><FaGithub /></a>
-            <a href="https://linkedin.com/in/bahubali-nalte" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-2xl text-muted-foreground hover:text-blue-400 transition-colors"><FaLinkedin /></a>
-            <a href="https://twitter.com/your_twitter" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-2xl text-muted-foreground hover:text-sky-400 transition-colors"><FaTwitter /></a>
-            <a href="https://instagram.com/your_instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-2xl text-muted-foreground hover:text-pink-400 transition-colors"><FaInstagram /></a>
-            <a href="https://wa.me/919999999999" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-2xl text-muted-foreground hover:text-green-400 transition-colors"><FaWhatsapp /></a>
+            <a href="https://github.com/BahubaliNalte" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-2xl text-muted-foreground hover:text-blue-400 transition-colors"><FaGithub /></a>
+            <a href="https://linkedin.com/in/bahubalinalte" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-2xl text-muted-foreground hover:text-blue-400 transition-colors"><FaLinkedin /></a>
+            <a href="https://twitter.com/bahubalinalte" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-2xl text-muted-foreground hover:text-sky-400 transition-colors"><FaTwitter /></a>
+            <a href="https://www.instagram.com/bahubali_nalte" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="text-2xl text-muted-foreground hover:text-pink-400 transition-colors"><FaInstagram /></a>
+            <a href="https://wa.me/917499189032" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp" className="text-2xl text-muted-foreground hover:text-green-400 transition-colors"><FaWhatsapp /></a>
           </div>
         </div>
       </div>
